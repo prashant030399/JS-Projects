@@ -1,0 +1,90 @@
+/* style.css */
+
+* { 
+	box-sizing: border-box; 
+} 
+
+body { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+
+} 
+
+.root { 
+	display: "block"; 
+	width: 50rem; 
+} 
+
+#searchInput { 
+	background-repeat: no-repeat; 
+	width: 100%; 
+	font-size: 16px; 
+	padding: 12px 20px 12px 40px; 
+	border: 1px solid #ddd; 
+	margin-bottom: 12px; 
+} 
+
+.form { 
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+	display: flexbox; 
+	margin: 0 1rem; 
+	padding: 1rem; 
+	width: 98%; 
+	font-size: 16px; 
+	background-color: rgb(247, 246, 246); 
+
+} 
+
+.form>div { 
+	width: 100%; 
+} 
+
+.form>button { 
+	background-color: rgb(46, 171, 46); 
+	padding: 1%; 
+	border-radius: 5px; 
+	width: 10%; 
+	color: black; 
+	border: 1px solid #ddd; 
+
+} 
+
+.form>input { 
+	width: 25%; 
+	margin: 2%; 
+	font-size: 16px; 
+	padding: 1%; 
+	border: 1px solid #ddd; 
+
+} 
+
+#table { 
+	border-collapse: collapse; 
+	width: 100%; 
+	border: 1px solid #ddd; 
+	font-size: 18px; 
+} 
+
+#table th, 
+#table td { 
+	text-align: left; 
+	padding: 12px; 
+} 
+
+#table tr { 
+	border-bottom: 1px solid #ddd; 
+} 
+
+#table tr.titles { 
+	background-color: lightgreen; 
+} 
+
+.zoom { 
+	text-align: center; 
+} 
+
+.zoom:hover { 
+	transform: scale(1.5); 
+	color: rgb(255, 0, 0); 
+}
